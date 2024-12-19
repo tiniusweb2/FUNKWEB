@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+#tunnel-container {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    display: block;
+}
+
+.content-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* Adjust logo size as needed */
+    width: 150px;
+    height: 150px;
+}
+
+.logo svg {
+    width: 100%;
+    height: 100%;
+    /* Change logo to dark color to match the tunnel lines */
+    fill: none;
+    stroke: #2d2d2d;
+}
